@@ -10,12 +10,17 @@
     "audit": "npm audit --audit-level=high"
   },
   "dependencies": {
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "jest": "^29.7.0"
   },
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "overrides": {
+  "minimatch": "^3.1.4",
+  "picomatch": "^2.3.2",
+  "brace-expansion": "^1.1.12"
+}
 }
