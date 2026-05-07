@@ -14,7 +14,7 @@ git branch -M main
 Ve a GitHub → New repository → ponle el nombre (por ejemplo sample-dev-sec-ops).
 NO inicialices con README (ya lo tienes local).
 Luego, en tu terminal:
-git remote add origin https://github.com/galarza-dev/sample_dev_sec_ops.git   # o por SSH
+git remote add origin https://github.com/DanielaLTM2206/Software-Seguro.git
 git push -u origin main
 
 
